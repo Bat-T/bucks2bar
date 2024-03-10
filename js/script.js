@@ -45,10 +45,10 @@ chartTab.addEventListener('click', function() {
     // Update the chart
     Highcharts.chart('chart', {
         chart: {
-            type: 'column'
+            type: 'column',
         },
         title: {
-            text: 'Your Chart Title'
+            text: 'Income/Expense Chart'
         },
         xAxis: {
             categories: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
